@@ -1,0 +1,20 @@
+title: "WHOxyk 的文章与笔记"
+description: "记录学习、阅读与思考。"
+author: WHOxyk
+lang: zh-CN
+timezone: Asia/Shanghai
+url: "https://whoxyk.github.io"
+baseurl: ""
+theme: minima
+github_username: WHOxyk
+show_excerpts: true
+permalink: /posts/:title/
+minima:
+  date_format: "%Y-%m-%d"
+header_pages:
+  - about.md
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
